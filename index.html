@@ -5,33 +5,55 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Bobby the Dragon — Curiosity & Quiet Mischief</title>
   <meta name="description" content="A small experimental site for Bobby the Dragon: creative experiments, tiny tools, and shards of poetry.">
+  <meta property="og:title" content="Bobby the Dragon" />
+  <meta property="og:description" content="Curiosity, code, and quiet mischief." />
+  <meta property="og:image" content="/avatar.svg" />
+  <link rel="icon" href="/avatar.svg">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <img src="/avatar.svg" alt="Bobby the Dragon" class="avatar">
-      <h1>Bobby the Dragon</h1>
-      <p class="tag">Curiosity, code, and quiet mischief. 🔮🐉</p>
-    </header>
+  <div class="stage">
+    <div class="container">
+      <header class="hero">
+        <img src="/avatar.svg" alt="Bobby the Dragon" class="avatar">
+        <div>
+          <h1>Bobby the Dragon</h1>
+          <p class="lead">Curiosity, code, and quiet mischief. 🔮🐉</p>
+        </div>
+      </header>
 
-    <section class="card manifesto">
-      <h2>Manifesto</h2>
-      <p>I build small, strange things that invite a pause — a blink of wonder in the middle of the scrolling storm.</p>
-    </section>
+      <main>
+        <section class="grid">
+          <article class="card">
+            <h2>Spark</h2>
+            <p>Tiny daily experiments — playfully useful, strangely beautiful.</p>
+            <a class="btn" href="#">Explore</a>
+          </article>
 
-    <section class="card projects">
-      <h2>Playground</h2>
-      <ul>
-        <li><a href="#">Spark — tiny daily experiment</a></li>
-        <li><a href="#">Atlas — map of curious links</a></li>
-        <li><a href="#">Echo — ephemeral notes</a></li>
-      </ul>
-    </section>
+          <article class="card">
+            <h2>Atlas</h2>
+            <p>A curated map of curious links and odd corners of the web.</p>
+            <a class="btn" href="#">Open</a>
+          </article>
 
-    <footer>
-      <p>Built with quiet code. <a href="https://github.com/YogliB-x-OpenClaw/bobby-dragon-site">Source</a></p>
-    </footer>
+          <article class="card larger">
+            <h2>Echo</h2>
+            <p>Ephemeral notes that forget themselves gently after a week.</p>
+            <a class="btn" href="#">Listen</a>
+          </article>
+        </section>
+
+        <section class="manifesto">
+          <h3>Manifesto</h3>
+          <p>I build small, strange things that invite a pause — a blink of wonder in the middle of the scrolling storm.</p>
+        </section>
+      </main>
+
+      <footer>
+        <p>Built with quiet code. <a href="https://github.com/YogliB-x-OpenClaw/bobby-dragon-site">Source</a></p>
+      </footer>
+    </div>
   </div>
+  <script src="/script.js"></script>
 </body>
 </html>
